@@ -1,1 +1,171 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+/******** hero slider ********/
+
+.bv-slider-wrapper {
+  display: block;
+  background: #FFF;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+
+/******* thumbnails ******/
+
+
+.bv-border-radius {
+
+  border-radius: 6px ;
+
+    &--top   {
+
+      border-radius: 6px 6px 0px 0px; }
+
+    &--bottom   {
+
+      border-radius: 0px 0px 6px 6px;}
+}
+
+
+
+.bv-thumb{
+  border-bottom:#efefef 2px solid;
+
+}
+
+.bv-modal-thumbn{
+  background-size: 170%;
+  padding: 70px 5px 5px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transition-property: background-size;
+  transition-duration: 0.2s;
+}
+.bv-modal-thumbn:hover{
+
+    background-size: 175%;
+}
+
+.bv-modal-thumbn-text{
+  margin:10px;
+  padding:10px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    &--right   {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+    &--darkest   {
+      background-attachment: fixed;
+      background-color: rgba(0,0,0,0.8);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size: cover;}
+      &--darker   {
+      background-attachment: fixed;
+      background-color: rgba(0,0,0,0.5);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size: cover;}
+
+      &--dark   {
+      background-attachment: fixed;
+      background-color: rgba(0,0,0,0.3);
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size: cover;}
+
+      &--lightest   {
+      background-attachment: fixed;
+      background-color: rgba(250,250,250,0.9);
+      background-blend-mode: lighten;
+      background-position: center;
+      background-size: cover;
+      }
+
+      &--lighter   {
+      background-attachment: fixed;
+      background-color: rgba(250,250,250,0.7);
+      background-blend-mode: lighten;
+      background-position: center;
+      background-size: cover;
+      }
+      &--light   {
+      background-attachment: fixed;
+      background-color: rgba(250,250,250,0.6);
+      background-blend-mode: color;
+      background-position: center;
+      background-size: cover; }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+
+  background-image: none!important;
+
+  &--black{
+
+    background-image: none!important;
+    background-color: #000;
+
+}
+
+}
+
+    .bv-parallax{
+      background-attachment: scroll;
+      background-size: cover;
+
+
+    &--darkest   {
+      background-attachment: scroll;
+      background-size: cover;
+    }
+      &--darker   {
+        background-attachment: scroll;
+        background-size: cover;
+      }
+      &--dark   {
+        background-attachment: scroll;
+        background-size: cover;
+        }
+
+      &--lighter   {
+        background-attachment: scroll;
+        background-size: cover;
+
+      }
+      &--light   {
+        background-attachment: scroll;
+        background-size: cover;
+     }
+      }
+
+}

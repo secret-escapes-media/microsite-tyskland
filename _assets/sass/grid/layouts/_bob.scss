@@ -40,12 +40,12 @@
     width: 100%;
     max-width: $lg;
     @include bp($bp) {
-      width: 60%;
+      width: 50%;
       max-width: none;
     }
   }
   &__text {
-    @include bp($bp) { width: 40%; }
+    @include bp($bp) { width: 50%; }
     &--center {
       text-align: center;
       @include bp($bp){ text-align: left; }

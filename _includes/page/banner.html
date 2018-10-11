@@ -1,6 +1,6 @@
 <div class="banner">
   <div class="site-header__offset"></div>
-  <div class="banner__bg" style="background-image: url('{{site.img}}/img.jpg')"></div>
+  <div class="banner__bg bv-parallax bv-parallax--right" style="background-image: url('{{site.img}}/hero.jpg')"></div>
   <div class="banner__wrap">
     {% if page.banner.content %}
       {{page.banner.content | liquify}}
@@ -12,4 +12,8 @@
       </div>
     {% endif %}
   </div>
+  <div class="banner__nav">
+    {% include nav/sections.html %}
+  </div>
+  <div class="site-nav__offset"></div>
 </div>

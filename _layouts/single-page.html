@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+
+  <body>
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    {% include page/banner.html %}
+
+
+      <!-- intro -->
+
+
+    <div class="content-spacing section-spacing">
+
+      <!-- loops through section file for page content -->
+      {% for section in site.data.sections %}
+      <div class=" vpad--xxxl bv-parallax--dark"  id="{{section.id}}"  style="background-image: url('{{site.img}}/content/{{section.img}}.jpg');" >
+        <div class="container">
+          <div class="width width--xxl text--xxl text--center text--white " >
+            <div class="title title--lg text--bolder ">{{section.title}}</div>
+            <p>{{section.description}}</p>
+
+            <div class="space--sm "></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="js-nav-section vpad--sm bg--light ">
+      <div class="space--md"></div>
+      <div class="container">
+        <div class="text--center">
+            <div class="row row--gutters-xs" >
+                {% for poi in section.pois.items %}
+              <!--  <div id="tracking-poi-{{poi.id}}" class="col col--lg-6 col--xl-3 text--center js-open-modal" data-open-modal="{{poi.id}}" >
+
+                    <div class="highlight__image bg-img " style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); background-color: rgba(0,0,0,0.45); background-blend-mode: multiply;">
+                      <div class="bv-lineheight sub-title sub-title--md text--upper text--white text--bolder" style=" padding-bottom:{{poi.pad-bottom}};padding-top:{{poi.pad-top}}; height:30px;">{{poi.title}}</div>
+                   </div>
+                    <div class="bg--white boxpad--lg bv-thumb">
+                        {{poi.description-short}}...<br>
+                        <div class="space--xxs"></div>
+                        <div class=" text--bold bv-text-colour2">Mehr erfahren</div>
+                    </div>
+
+
+              </div>-->
+<div id="tracking-poi-{{poi.id}}" class="col col-lg-6 col--xl-3 text--center js-open-modal" data-open-modal="{{poi.id}}" >
+              <a onclick="openModal();currentSlide({{poi.id}})" data-modal-item="highlight{{poi.id}}" data-modal-group="section" >
+      <div >
+        <div class="bv-modal-thumbn" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); ">
+          <div class="bv-modal-thumbn-text text--xl " >
+            <h4 class="title title--xxs text--bold text--black ">{{poi.title}}</h4>
+          <div class="space--xxxs  ">
+          {{poi.description-short}}...<br></div>
+          <div class="space--xxs"></div>
+            <div class="text--bold ">Mehr erfahren</div>
+          </div>
+
+        </div>
+
+      </div>
+    </a></div>
+              {% endfor %}
+              </div>
+            </div>
+
+
+            <div class="space--xl"></div>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!-- Offers section -->
+      <div id="offers" class="js-nav-section">
+        <div class="space--xxxl"></div>
+        <div class="title title--xxxl text--center">Latest Offers</div>
+        <div class="space--xxl"></div>
+        {% include offer/all-offers.html %}
+        <div class="space--xxxl"></div>
+        {% include page/promo-offers.html %}
+      </div>
+
+
+    </div>
+
+
+    {% include page/footer.html %}
+
+    {% include modal/sections.html %}
+
+  </body>
+
+</html>

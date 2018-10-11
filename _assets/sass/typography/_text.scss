@@ -5,6 +5,7 @@
   &--xxl { font-size: 1.2rem; line-height: 1.6; letter-spacing: 0; }
   &--xl  { font-size: 1.1rem; line-height: 1.6; letter-spacing: 0; }
   &--lg  { font-size: 1.05rem; letter-spacing: 0; }
+  &--md  { font-size: .9rem; }
   &--sm  { font-size: .8rem; }
 
   // styles
@@ -13,13 +14,14 @@
   &--normal       { font-weight: 400; }
   &--bold         { font-weight: 600; }
   &--bolder       { font-weight: 700; }
+  &--black       { font-weight: 900; }
   &--wide-kern    { letter-spacing: .25em; }
   &--wide-kern-lg { letter-spacing: .5em; }
   &--upper        { text-transform: uppercase; }
 
   // colours
   &--white { color: $grey-lightest; }
-  &--black { color: $grey-dark; }
+  &--black { color: $grey-darker; }
 
   // alignment
   &--left   { text-align: left; }

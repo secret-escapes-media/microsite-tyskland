@@ -12,7 +12,6 @@
   color: $white;
   background-color: $grey;
   @include bp($lg){
-    height: 90%;
     min-height: 650px;
     max-height: none;
   }
@@ -58,5 +57,25 @@
       top: 0;
       bottom: auto;
     }
+  }
+}
+
+
+
+// BANNER CAROUSEL
+.banner--carousel {
+  text-align: center;
+  min-height: 90%;
+  .banner {
+    &__wrap { pointer-events: none; }
+    &__slide {
+      transition: all 8000ms cubic-bezier(0,0,1,1);
+      @include background-attributes();
+      background-size: auto 100%;
+      background-position: center;
+    }
+  }
+  .owl-item.active .banner__slide {
+    background-size: auto 115%;
   }
 }
