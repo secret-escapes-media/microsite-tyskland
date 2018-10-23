@@ -1,6 +1,6 @@
 - id: one
   title: "De populære storbyene i Tyskland"
-  nav-title: Tyske byer
+  nav-title: Storbyene
   img: pois-bg1
   description: "Har du lyst til å reise på en storbytur til Tyskland? I tillegg til spennende opplevelser og severdigheter i Berlin, kan du også utforske Münchens vakre arkitektur, Hamburgs kunst og kultur, finansbyen Frankfurt eller Düsseldorf som er full av nydelige parker. De populære storbyene byr på noe for enhver smak, og absolutt alle har sitt eget særpreg og sjarme. Du har ingen tid å miste, den neste storbyturen i Tyskland finner du her."
 
@@ -41,8 +41,8 @@
         title: Düsseldorf
         pad-bottom: 36%
         pad-top: 27%
-        description-short: "Düsseldorf er perfekt for livsnyting og sightseeing. Gå for all del ikke"
-        description: "Düsseldorf er perfekt for livsnyting og sightseeing. Gå for all del ikke glipp av en tur til den populære Gamlebyen, som består av ulike arrangementer, museer, gallerier og betydelige severdigheter. Skulle du få nok av sightseeing og severdigheter, kan du slappe av blant trær, enger og romantiske fontener i en av byens vakre parker. Den ultimate avslapping er imidlertid å sitte med en pils på borgplassen og se på Rhinen."
+        description-short: "Denne storbyen er perfekt for livsnyting og sightseeing. Gå for all del ikke"
+        description: "Denne storbyen er perfekt for livsnyting og sightseeing. Gå for all del ikke glipp av en tur til den populære Gamlebyen, som består av ulike arrangementer, museer, gallerier og betydelige severdigheter. Skulle du få nok av sightseeing og severdigheter, kan du slappe av blant trær, enger og romantiske fontener i en av byens vakre parker. Den ultimate avslapping er imidlertid å sitte med en pils på borgplassen og se på Rhinen."
 
 
 
@@ -65,15 +65,15 @@
         title: Øl i verdensklasse
         pad-bottom: 36%
         pad-top: 27%
-        description-short: "Tyskland er hjem til over 5000 øltyper som er brygget i mer enn 1300 bryggerier"
+        description-short: "Tyskland er hjem til over 5000 øltyper som er brygget i mer enn 1300"
         description: "Tyskland er hjem til over 5000 øltyper som er brygget i mer enn 1300 bryggerier – og over halvparten av disse finner sted i Bayern. Ingen andre land i verden tilbyr et så stort utvalg når det kommer til øl, så dette er det perfekte reisemålet for deg som er over gjennomsnittet glad i øl. Skulle du besøke Tyskland om sommeren, må du nyte en forfriskende øl i en av de mange ølhagene rundt i landet. "
 
       - id: highlight7
         title: Vin
         pad-bottom: 36%
         pad-top: 27%
-        description-short: "Tyskland er ikke bare spesialist på øl – Tyskland har også 13 vinavlsregioner"
-        description: "Tyskland er ikke bare spesialist på øl – Tyskland har også 13 vinavlsregioner som produserer utsøkte viner. Ta turen til en av vinregionene, hvor du – i tillegg til førsteklasses vinsmaking – kan oppleve vakre landskap, frodig natur, varmt klima, dramatiske fjell, romantiske elver og sjarmerende landsbyer. "
+        description-short: "Tyskland er ikke bare spesialist på øl – landet har også 13 vinavlsregioner"
+        description: "Tyskland er ikke bare spesialist på øl – landet har også 13 vinavlsregioner som produserer utsøkte viner. Ta turen til en av vinregionene, hvor du – i tillegg til førsteklasses vinsmaking – kan oppleve vakre landskap, frodig natur, varmt klima, dramatiske fjell, romantiske elver og sjarmerende landsbyer. "
 
       - id: highlight8
         title: Tradisjonelle mat
@@ -97,7 +97,7 @@
 
 - id: three
   title: Kom i julestemning i Tyskland
-  nav-title: De koselige julemarkedene
+  nav-title: Koselige julemarkeder
   img: pois-bg3
   description: "Få ekte julestemning i landet med verdens beste julemarkeder. Handle spennende julegaver, kjøp inn julepynt, drikk glühwein og bare kom i skikkelig julestemning. I Frankfurt finner du det eldste, i Düsseldorf stemning og magi, romantiske lysshow i Berlin og en mengde snacksboder i Kiel. Julemarkedene er virkelig en flott førjulsopplevelse, og noe du bør gjøre (minst!) en gang i livet."
   pois:
@@ -106,42 +106,42 @@
     items:
 
       - id: highlight10
-        title: Berlin
-        pad-bottom: 36%
-        pad-top: 27%
+        title: Julestemning for både store og små
+        pad-bottom:
+        pad-top:
         description-short: "Opplev kremen av julemarkeder foran Charlottenburg slott"
         description: "Opplev kremen av julemarkeder foran Charlottenburg slott med romantiske lysshow, imponerende håndverk og flotte smykker i et oppvarmet juletelt. Dette er et kongelig julemarked for både store og små, og om kvelden kan du hver kveld på palasset se hvordan julefeiringen foregikk før i tiden – med borddekking og julegaver. "
 
       - id: highlight11
-        title: München
+        title: Adventskos til et nytt nivå
         pad-bottom: 36%
         pad-top: 27%
         description-short: "Det historiske rådhuset Marienplatz er bakteppet for det tradisjonelle"
         description: "Det historiske rådhuset Marienplatz er bakteppet for det tradisjonelle julemarkedet i München. Adventstkosen når et nytt nivå i juleverkstedet hvor små englebarn kan bake, tegne og lage figurer. Her kan du også støte på biskopen Nicholas og hans venn 'Krampus' i Budengassen, noe som gir liv til en femhundre år gammel folklore. "
 
       - id: highlight12
-        title: Hamburg
+        title: Selveste juleland
         pad-bottom: 36%
         pad-top: 27%
         description-short: "Hamburg er kanskje selveste juleland i Tyskland. På det vakre torget"
         description: "Hamburg er kanskje selveste juleland i Tyskland. På det vakre torget Rathausmarkt finner du boder fulle av sukkerstenger, lekesaker og imponerende håndarbeid. Julemarkedet som ligger i Mönckebergstraße er en stor turistmagnet for byen med 150 boder fulle av den deilige julestemningen. Dersom du ønsker deg en tur over nyttår byr Jungfernsteig på glitrende julelysshow, og det hele avsluttes på nyttårsaften med et magisk fyrverkeri."
 
       - id: highlight13
-        title: Frankfurt
+        title: Besøk det eldste julemarkedet
         pad-bottom: 36%
         pad-top: 27%
         description-short: "Julemarkedet i Frankfurt er det eldste av sitt slag og strekker seg helt"
         description: "Julemarkedet i Frankfurt er det eldste av sitt slag og strekker seg helt tilbake til 1393. Det er ikke bare gammelt, men også vanvittig flott og stort. Her kan du geleide deg gjennom hele 200 boder før du finner fram til det 30-meter høye juletreet, hvor et stort spekter av underholdning står på plakaten rundt hele plassen. Her er julestemningen definitivt høy."
 
       - id: highlight14
-        title: Düsseldorf
+        title: Stemning og magi
         pad-bottom: 36%
         pad-top: 27%
         description-short: "Langs den vakkert opplyste Königsallee finner du en rekke julemarkeder"
         description: "Langs den vakkert opplyste Königsallee finner du en rekke julemarkeder fulle av stemning og magi. Her finner du over 230 juleboder, men om du skulle trenge en pause fra shoppingen kan du ta deg en runde eller to på den 450 m² store isbanen. Julestemningen i Düsseldorf er en opplevelse du aldri kommer til å glemme."
 
       - id: highlight15
-        title: Kiel
+        title: Fire julemarkeder på en dag
         pad-bottom: 36%
         pad-top: 27%
         description-short: "I Kiel ligger fire fantastiske julemarkeder i gangavstand fra hverandre på"
