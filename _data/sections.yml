@@ -13,6 +13,7 @@
         title: Berlin
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Hovedstaden Berlin har noe for enhver smak – severdigheter, kunst"
         description: "Hovedstaden Berlin har noe for enhver smak – severdigheter, kunst, design, mat, historie, artikektur og natteliv. Utforsk den verdensberømte Berlinmuren, før du tar turen videre til Potsdamer Platz for å beundre den vakre arkitekturen. Sett deg så ned for å spise nasjonalretten Currywurst, før du besøker trendy bydeler som Kreuzberg eller slottsparken rundt Charlottenburg. Avslutt kvelden med musikk eller dans på en av byens livlige undergrunnsklubber."
 
@@ -20,6 +21,7 @@
         title: München
         pad-bottom: 36%
         pad-top: 27%
+        caption:  "© Bilde: Christof Herdt | DZT e.V. "
         description-short: "Besøk München for å beundre den vakre arkitekturen. Mange"
         description: "Besøk München for å beundre den vakre arkitekturen. Mange bygninger ble riktignok ødelagt under andre verdenskrig, men historiske stoltheter har blitt gjenreist. Byen er perfekt for livsnytere, og her kan du oppleve den berømte Oktoberfesten – München byr på en stemning du ikke finner noen andre steder. Glem heller ikke å svinge innom byens museer og teatre."
 
@@ -27,6 +29,7 @@
         title: Hamburg
         pad-bottom: 36%
         pad-top: 27%
+        caption: "© Bilde: powell83 | fotolia "
         description-short: "Hamburg anses som en av de vakreste byene i Tyskland. Den grønne"
         description: "Hamburg anses som en av de vakreste byene i Tyskland. Den grønne byen ved vannet kan skilte med en fantastisk atmosfære og maritim sjarme. Tysklands nest største by har den fineste kunst og kultur, musikalske verdenssuksesser, fantastiske museer, kvalitetsbevisst og underholdende teater, opera, en av verdens beste ballettkompanier, utmerket gastronomi, eksklusiv shopping, et pirrende natteliv og severdigheter fra over 1200 år – så her vil du ikke kjede deg ett sekund."
 
@@ -35,12 +38,14 @@
         description-short: "Frankfurt er et stort finansielt og kommersielt sentrum, men også veldig"
         pad-bottom: 36%
         pad-top: 27%
+        caption: "© Bilde: Francesco Carovillano | DZT e.V. "
         description: "Frankfurt er et stort finansielt og kommersielt sentrum, men også veldig rik på kunst og kultur. Besøk Keiser-katedralen fra 1253, før du tar en shoppingrunde på byens luksuriøse handlegate Goethestraße. Senere kan du nyte god og variert mat på en av byens restauranter, og deretter kan du gå over gangbroen i Main, som er en stor severdighet i seg selv. "
 
       - id: highlight5
         title: Düsseldorf
         pad-bottom: 36%
         pad-top: 27%
+        caption: "© Bilde: Francesco Carovillano | DZT e.V. "
         description-short: "Denne storbyen er perfekt for livsnyting og sightseeing. Gå for all del ikke"
         description: "Denne storbyen er perfekt for livsnyting og sightseeing. Gå for all del ikke glipp av en tur til den populære Gamlebyen, som består av ulike arrangementer, museer, gallerier og betydelige severdigheter. Skulle du få nok av sightseeing og severdigheter, kan du slappe av blant trær, enger og romantiske fontener i en av byens vakre parker. Den ultimate avslapping er imidlertid å sitte med en pils på borgplassen og se på Rhinen."
 
@@ -65,6 +70,7 @@
         title: Øl i verdensklasse
         pad-bottom: 36%
         pad-top: 27%
+        caption: "© Bilde: Andreas Hub | FrankenTourismus/Bamberg TKS/ Hub "
         description-short: "Tyskland er hjem til over 5000 øltyper som er brygget i mer enn 1300"
         description: "Tyskland er hjem til over 5000 øltyper som er brygget i mer enn 1300 bryggerier – og over halvparten av disse finner sted i Bayern. Ingen andre land i verden tilbyr et så stort utvalg når det kommer til øl, så dette er det perfekte reisemålet for deg som er over gjennomsnittet glad i øl. Skulle du besøke Tyskland om sommeren, må du nyte en forfriskende øl i en av de mange ølhagene rundt i landet. "
 
@@ -72,6 +78,7 @@
         title: Vin
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Tyskland er ikke bare spesialist på øl – landet har også 13 vinavlsregioner"
         description: "Tyskland er ikke bare spesialist på øl – landet har også 13 vinavlsregioner som produserer utsøkte viner. Ta turen til en av vinregionene, hvor du – i tillegg til førsteklasses vinsmaking – kan oppleve vakre landskap, frodig natur, varmt klima, dramatiske fjell, romantiske elver og sjarmerende landsbyer. "
 
@@ -79,6 +86,7 @@
         title: Tradisjonelle mat
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Øl, bratwurst og Handkäs-ost er kanskje det første du tenker når du"
         description: "Øl, bratwurst og Handkäs-ost er kanskje det første du tenker når du snakker om tradisjonelle, tyske matretter, men det er bare en liten del av matgledene som tilbys her. Reis på en kulinarisk reise gjennom Tyskland og du vil bli overrasket over de nye matopplevelsene. Nevnte vi poteter, grønnsaker, melk og sist, men ikke minst Jägermeister? Gled deg!"
 
@@ -86,6 +94,7 @@
         title: Gourmetmat
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Selv om du også bør smake på tradisjonelle retter som Currywurst fra"
         description: "Selv om du også bør smake på tradisjonelle retter som Currywurst fra Berlin og Handkäs-ost fra Frankfurt, er det ingen grunn til å gå glipp av Tysklands deilige gourmetmat. I løpet av de siste årene har matscenen virkelig vokst, og de enkle og regionale klassikerne har blitt til forvandlet til nye kreasjoner med internasjonale innflytelser. Tyskland har faktisk over 300 restauranter med Michelin-stjerne, og alle er verdt et besøk!"
 
@@ -109,6 +118,7 @@
         title: Julestemning for både store og små
         pad-bottom:
         pad-top:
+        caption: "© Bilde: Wolfgang Scholvien | visitberlin"
         description-short: "Opplev kremen av julemarkeder foran Charlottenburg slott"
         description: "Opplev kremen av julemarkeder foran Charlottenburg slott med romantiske lysshow, imponerende håndverk og flotte smykker i et oppvarmet juletelt. Dette er et kongelig julemarked for både store og små, og om kvelden kan du hver kveld på palasset se hvordan julefeiringen foregikk før i tiden – med borddekking og julegaver. "
 
@@ -116,6 +126,7 @@
         title: Adventskos til et nytt nivå
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Det historiske rådhuset Marienplatz er bakteppet for det tradisjonelle"
         description: "Det historiske rådhuset Marienplatz er bakteppet for det tradisjonelle julemarkedet i München. Adventstkosen når et nytt nivå i juleverkstedet hvor små englebarn kan bake, tegne og lage figurer. Her kan du også støte på biskopen Nicholas og hans venn 'Krampus' i Budengassen, noe som gir liv til en femhundre år gammel folklore. "
 
@@ -123,6 +134,7 @@
         title: Selveste juleland
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Hamburg er kanskje selveste juleland i Tyskland. På det vakre torget"
         description: "Hamburg er kanskje selveste juleland i Tyskland. På det vakre torget Rathausmarkt finner du boder fulle av sukkerstenger, lekesaker og imponerende håndarbeid. Julemarkedet som ligger i Mönckebergstraße er en stor turistmagnet for byen med 150 boder fulle av den deilige julestemningen. Dersom du ønsker deg en tur over nyttår byr Jungfernsteig på glitrende julelysshow, og det hele avsluttes på nyttårsaften med et magisk fyrverkeri."
 
@@ -130,6 +142,7 @@
         title: Besøk det eldste julemarkedet
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Julemarkedet i Frankfurt er det eldste av sitt slag og strekker seg helt"
         description: "Julemarkedet i Frankfurt er det eldste av sitt slag og strekker seg helt tilbake til 1393. Det er ikke bare gammelt, men også vanvittig flott og stort. Her kan du geleide deg gjennom hele 200 boder før du finner fram til det 30-meter høye juletreet, hvor et stort spekter av underholdning står på plakaten rundt hele plassen. Her er julestemningen definitivt høy."
 
@@ -137,6 +150,7 @@
         title: Stemning og magi
         pad-bottom: 36%
         pad-top: 27%
+        caption: "&nbsp;"
         description-short: "Langs den vakkert opplyste Königsallee finner du en rekke julemarkeder"
         description: "Langs den vakkert opplyste Königsallee finner du en rekke julemarkeder fulle av stemning og magi. Her finner du over 230 juleboder, men om du skulle trenge en pause fra shoppingen kan du ta deg en runde eller to på den 450 m² store isbanen. Julestemningen i Düsseldorf er en opplevelse du aldri kommer til å glemme."
 
@@ -144,6 +158,7 @@
         title: Fire julemarkeder på en dag
         pad-bottom: 36%
         pad-top: 27%
+        caption: "© Bilde: Peter Lühr"
         description-short: "I Kiel ligger fire fantastiske julemarkeder i gangavstand fra hverandre på"
         description: "I Kiel ligger fire fantastiske julemarkeder i gangavstand fra hverandre på Rathausplatz, i Holstenstraße, på Asmus-Bremer-Platz og på Alte Markt. Her kryr det av boder med tradisjonell punsj, snacksboder og håndverksboder. På Osteekai kan du dessuten få prøvd både curlingkunnskaper og skøyteteknikk på deres 700 m² store skøytebane. Og du? Hva med å kombinere juleturen med ferge fra Norge? "
 
@@ -159,3 +174,4 @@
   img: pois-bg4
   description: "Tyskland er ikke bare en destinasjon du bør besøke hvis du er ute etter severdigheter, julemarkeder, mat og et livlig natteliv – i hele landet kan du også finne noen av de beste spa-opplevelsene i verden. Hva med å prøve seg på en spennende grotte- og radonterapi? Ved grotteterapi utnyttes den spesielt rene luften til å forbedre luftveiene og sies også å ha god effekt på mennesker som er plaget med allergi. Dersom du ønsker deg en mer klassisk opplevelse er Tyskland også stedet for Mineral- og termalkilder. Rundt om i hele landet lover helsebad og kursteder lindring av plager gjennom vannets helbredende virkning. Prøv deg på et av Tysklands mange helseresorter dersom du ønsker en opplevelse med skjønnhet i fokus. Her lover de et klima som er godt for helsen."
   pois:
+  caption: "© Bilde: Ollertz & Ollertz | Toskanaworld GmbH "

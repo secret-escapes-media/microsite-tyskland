@@ -6,19 +6,6 @@
 }
 
 
-/******** hero slider ********/
-
-.bv-slider-wrapper {
-  display: block;
-  background: #FFF;
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
 
 /******* thumbnails ******/
 
@@ -38,30 +25,44 @@
 
 
 
-.bv-thumb{
-  border-bottom:#efefef 2px solid;
-
-}
-
 .bv-modal-thumbn{
-  background-size: 200%;
-  padding: 230px 5px 5px;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  transition-property: background-size;
+  background-size: 210%;
   transition-duration: 0.2s;
-}
-.bv-modal-thumbn:hover{
 
-    background-size: 205%;
+  @include bp($md){ background-size: 195%; transition-duration: 0.2s; }
+  @include bp($xl){ background-size: 195%; transition-duration: 0.2s; }
+  @include bp($xxl){ background-size: 225%; transition-duration: 0.2s; }
+  @include bp($xxxl){ background-size: 200%; transition-duration: 0.2s; }
+}
+
+.bv-modal-thumbn:hover{
+  background-size: 220%;
+
+  @include bp($md){ background-size: 205%; }
+  @include bp($xl){ background-size: 205%; }
+  @include bp($xxl){ background-size: 240%; }
+  @include bp($xxxl){ background-size: 205%; }
 }
 
 .bv-modal-thumbn-text{
   margin:10px;
   padding:10px;
+  margin-top: -15px;
   background-color: rgba(255,255,255,0.8);
 }
 
+.bv-caption{
+  background-image: linear-gradient(rgba($black,0), rgba($black,0.8));
+  background-blend-mode: multiply;
+  padding-top: 15px;
+  margin-top: -30px;
+  font-weight: bold;
+
+    &--thumbn   {
+      font-weight: bold;
+      text-shadow: 1px 1px 4px rgba($black,0.6);
+      padding-bottom: 2px;}
+}
 
 /* ==========================================================================
    Parallax
@@ -133,13 +134,10 @@
   &--black{
 
     background-image: none!important;
-    background-color: #000;
-
+    background-color: #000;}
 }
 
-}
-
-    .bv-parallax{
+.bv-parallax{
       background-attachment: scroll;
       background-size: cover;
 
@@ -166,6 +164,6 @@
         background-attachment: scroll;
         background-size: cover;
      }
-      }
+    }
 
 }
