@@ -1,22 +1,3 @@
-- title: Klassisk eleganse i Berlin
-  id: 1
-  img: savoy-hotel
-  location: Savoy Hotel, Berlin, Tyskland
-  description: Elegant hotell med aner fra de glamorøse 1920-årene, inkl. frokost
-  price: 733
-  price-description: per rom per natt
-  saved:
-  link: http://bit.ly/2yFnLpr
-
-- title: Kultur og shopping i spennende Berlin
-  id: 2
-  img: citadines-kudamm
-  location: Citadines Kurfürstendamm Berlin, Berlin, Tyskland
-  description:  Opphold med frokost i trendy studioleilighet i Berlins berømte Ku'Damm
-  price: 657
-  price-description: per studio per natt
-  saved:
-  link: http://bit.ly/2OdtkA4
 
 - title: Japansk-inspiret hotell i Düsseldorf
   id: 3
@@ -37,15 +18,6 @@
   price-description: per rom per natt
   link: http://bit.ly/2RkvT5g
 
-- title: Moderne og maritimt i Hamburg
-  id: 5
-  img: lindner-hotel-hh
-  location: Lindner Hotel Am Michel, Hamburg, Tyskland
-  description: Stilig og stilrent på sentralt hotell tett på St. Pauli og Jungfernstieg
-  price: 1057
-  price-description: per rom per natt
-  link: http://bit.ly/2DaJd9G
-
 - title: Livsnyting på strand- og spahotell
   id: 6
   img: kuestenperle-strandhotel
@@ -54,51 +26,6 @@
   price: 1143
   price-description: per rom per natt
   link: http://bit.ly/2EScojj
-
-- title: Opplev Tysklands kulturhovedstad München
-  id: 7
-  img: living-hotel
-  location: Living Hotel Prinzessin Elisabeth, München, Tyskland
-  description: Opphold på hotell i det rolige Glockenbachviertel-distriktet, nær restauranter og grøntområder
-  price: 890
-  price-description: per rom per natt
-  link: http://bit.ly/2SpkNh3
-
-- title: Stilig leilighet sentralt i Berlin
-  id: 8
-  img: goodmans-living
-  location: Goodman's Living, Berlin, Tyskland
-  description: Opphold i en moderne leilighet i Berlins Charlottenburg, inkludert frokost
-  price: 729
-  price-description: per leilighet per natt
-  link: http://bit.ly/2OcwunC
-
-- title: Femstjerners luksus i Hamburg
-  id: 9
-  img: louis-c-jacob
-  location: Louis C. Jacob, Hamburg, Tyskland
-  description: Opphold med service i verdensklasse i rolige omgivelser i Hamburg, inkludert frokost
-  price: 1789
-  price-description: per rom per natt
-  link: http://bit.ly/2D9wvrz
-
-- title: Elegant luksushotell i Berlin
-  id: 10
-  img: hotel-adlon
-  location: Hotel Adlon Kempinski Berlin, Berlin, Tyskland
-  description: Bo på femstjerners hotell ved Brandenburger Tor, midt i Tysklands historiske sentrum
-  price: 2357
-  price-description: per rom per natt
-  link: http://bit.ly/2Jn0IDK
-
-- title: Kiel-opphold med fin utsikt
-  id: 11
-  img: maritim
-  location: Maritim Hotel Bellevue Kiel, Kiel, Tyskland
-  description: Bo fredelig og naturnært ved fjorden i nord-Tyskland, inkludert frokost
-  price: 653
-  price-description: per rom per natt
-  link: http://bit.ly/2yGqSNM
 
 - title: Unikt hotell i gammelt vanntårn
   id: 12
@@ -135,3 +62,12 @@
   price: 905
   price-description: per rom per natt
   link: http://bit.ly/2SILg9k
+
+- title: Byferie i Frankfurt
+  id: 15
+  img: hampton-hilton
+  location: Hampton by Hilton Frankfurt City Centre East, Frankfurt, Tyskland
+  description: Opplev Frankfurt – gangavstand til elven og gode transportlinjer til sentrum
+  price: 621
+  price-description: per rom per natt
+  link: http://bit.ly/2SSRMKQ
