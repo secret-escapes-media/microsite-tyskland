@@ -1,6 +1,6 @@
 
 - title: Japansk-inspiret hotell i Düsseldorf
-  id: 3
+  id: 2
   img: hotel-nikko
   location: Hotel Nikko Düsseldorf, Düsseldorf, Tyskland
   description: Stilrent hotell med en japansk vri i Düsseldorfs yrende sentrum, inkl. frokost
@@ -9,23 +9,51 @@
   saved:
   link: http://bit.ly/2RoMXr9
 
-- title: Utsikt over Frankfurts skyline
-  id: 4
-  img: lindner-hotel
-  location: Lindner Hotel & Residence Main Plaza, Frankfurt, Tyskland
-  description: Opphold i en ærverdig bygning ved elvebredden i Frankfurt, inkludert frokost
-  price: 1134
+- title: Femstjerners hotell i Berlin
+  id: 3
+  img: hotel-bristol
+  location: Hotel Bristol Berlin, Berlin, Tyskland
+  description: Femstjerners hotell i sentrum av Berlin, inkludert frokost
+  price: 1138
   price-description: per rom per natt
-  link: http://bit.ly/2RkvT5g
+  saved:
+  link: http://bit.ly/2PlQXMm
 
-- title: Livsnyting på strand- og spahotell
+- title: Avskjermet bolig i finanshovedstaden Frankfurt
+  id: 4
+  img: citadines-ffm
+  location: Citadines City Centre Frankfurt, Frankfurt, Tyskland
+  description: Opphold i en ærverdig bygning ved elvebredden i Frankfurt, inkludert frokost
+  price: 659
+  price-description: per studio per natt
+  link: http://bit.ly/2B295Cd
+
+- title: Innovativt i Tysklands Venezia
   id: 6
-  img: kuestenperle-strandhotel
-  location: Küstenperle Strandhotel & Spa, Nordseebad-Büsum, Slesvig-Holsten, Tyskland
-  description: Strandhotell ved kysten av Nordsjøen i Slesvig-Holsten, inkludert frokost, adgang til spa m.m.
-  price: 1143
+  img: ruby-lotti
+  location: Ruby Lotti Hamburg, Hamburg, Tyskland
+  description: Moderne og komfortabelt hotell sentralt i Hamburg, tett på butikker, restauranter og severdigheter
+  price: 851
   price-description: per rom per natt
-  link: http://bit.ly/2EScojj
+  link: http://bit.ly/2T7k2t6
+
+- title: Elegant og miljøvennlig hotell
+  id: 7
+  img: privathotel-lindtner
+  location: Privathotel Lindtner Hamburg, Hamburg, Tyskland
+  description: Luksuriøst opphold i Hamburg med frokost og rabatt på spabehandlinger
+  price: 1329
+  price-description: per rom per natt
+  link: http://bit.ly/2Qx9Fgp
+
+- title: Velvære og utsikt over Kielerfjorden
+  id: 8
+  img: atlantic-hotel
+  location: ATLANTIC Hotel Kiel, Kiel, Tyskland
+  description: Stilrent hotell i hjertet av Kiel med velvære, restaurant og takterrasse, inkl. frokost m.m.
+  price: 1328
+  price-description: per rom per natt
+  link: http://bit.ly/2zPtB7a
 
 - title: Unikt hotell i gammelt vanntårn
   id: 12
@@ -53,15 +81,6 @@
   price: 1229
   price-description: per rom per natt
   link: http://bit.ly/2F68ZO9
-
-- title: Lekkert og hipt i Berlin
-  id: 15
-  img: nhow-berlin
-  location: nhow Berlin, Berlin, Tyskland
-  description: Opphold på et imponerende hotell i hjertet av Berlin, inkludert frokost og velkomstdrink
-  price: 905
-  price-description: per rom per natt
-  link: http://bit.ly/2SILg9k
 
 - title: Byferie i Frankfurt
   id: 15
